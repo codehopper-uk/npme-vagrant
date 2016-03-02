@@ -3,6 +3,10 @@
 
 Vagrant.configure(2) do |config|
 
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 7680
+  end
+
   config.vm.box = "ubuntu/trusty64"
 
   config.vm.network "forwarded_port", guest: 8800, host: 8800
