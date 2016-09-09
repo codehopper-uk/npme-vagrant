@@ -1,7 +1,8 @@
-# npmO-vagrant
-> a vagrant setup for trialing npm On-Site
+# npme-vagrant
 
-Want to use npm, but behind a firewall? npm offers [npm On-Site] as
+> a vagrant setup for trialing npm Enterprise
+
+Want to use npm, but behind a firewall? npm offers [npm Enterprise] as
 a way to replicate the npm Public Registry, run it behind a firewall,
 allowing for:
 
@@ -15,7 +16,7 @@ To get up and running all you'll need is:
 
 - [Vagrant]
 - [VirtualBox]
-- a FREE [npm On-site Trial Key]
+- a FREE [npm Enterprise Trial Key]
 
 ## Up and Running
 
@@ -30,17 +31,17 @@ To get up and running all you'll need is:
 8. You'll see a screen that asks for your email address and License key, type those in and press the button to continue
 9. You'll see a screen that looks like this ![settings](images/4.png)
   Replace what is pre-filled with:
-    - Full URL of npm On-Site registry: `localhost:8081`
-    - Full URL of npm On-Site website: `localhost:8082`
+    - Full URL of npm Enterprise registry: `localhost:8080`
+    - Full URL of npm Enteprise website: `localhost:8081`
 10. Scroll down until you see a section called "Authentication" that looks like the image below. Select `Open`. ![auth](images/5.png)
 11. Save. You'll see a dialog to restart your service. Click Restart Now.
-12. Visit [`localhost:8082`]. You have the npm website running! You registry is running at [`localhost:8081`]
+12. Visit [`localhost:8081`]. You have the npm website running! You registry is running at [`localhost:8081`]
 
-[npm On-Site]: https://www.npmjs.com/npm/on-site
+[npm Enterprise]: https://www.npmjs.com/enterprise
 [Vagrant]: https://www.vagrantup.com/
 [VirtualBox]: https://www.virtualbox.org/wiki/Downloads
-[npm On-site Trial Key]: https://www.npmjs.com/on-site#free-trial
+[npm Enterprise Trial Key]: https://www.npmjs.com/enterprise
 [Prerequisites]: #Prerequisites
 [`localhost:8800`]: http://localhost:8800
+[`localhost:8080`]: http://localhost:8080
 [`localhost:8081`]: http://localhost:8081
-[`localhost:8082`]: http://localhost:8082
